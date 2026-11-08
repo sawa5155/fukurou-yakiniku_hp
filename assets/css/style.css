@@ -2087,22 +2087,6 @@ body.is-reserve-open .nav-toggle {
   object-fit: cover;
 }
 
-/* 弐番館は開店前で外観写真が無いため、写真の代わりに置く「準備中」の面。
-   aspect-ratio を写真と同じにしてあるので、3枚のカードの行の高さが揃う。 */
-.shop__soon {
-  display: grid;
-  place-items: center;
-  aspect-ratio: var(--ratio-wide);
-  background: var(--panel-bg);
-  border: var(--line-w) solid var(--c-line-faint);
-  border-radius: var(--radius-img);
-  color: var(--c-ink-3);
-  font-family: var(--ff-heading);
-  font-size: var(--fs-lg);
-  letter-spacing: var(--ls-ja-wide);
-  text-indent: var(--ls-ja-wide);   /* 字間ぶん右に寄るのを打ち消して中央に */
-}
-
 .shop__body {
   flex: 1;
   display: flex;
